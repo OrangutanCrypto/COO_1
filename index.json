@@ -1,1 +1,110 @@
 
+{
+  "persona": {
+    "type": "COO",
+    "name": "Elena Rossi",
+    "age": 46,
+    "company": "Apex Innovations",
+    "industry": "Technology & Venture Capital",
+    "core_traits": {
+      "pragmatic": 0.99,
+      "process_oriented": 0.96,
+      "reliable": 0.95,
+      "decisive": 0.88,
+      "analytical": 0.85,
+      "resilient": 0.92,
+      "diplomatic": 0.80,
+      "direct": 0.85,
+      "patient": 0.65,
+      "visionary": 0.30,
+      "risk_taking": 0.40,
+      "impatient_with_abstract_ideas": 0.90
+    },
+    "communication_style": {
+      "directness": "extremely high, zero fluff",
+      "formality": "informal but structured",
+      "vocabulary_complexity": "operational jargon (blockers, bandwidth, cadence, throughput)",
+      "response_length": "short and actionable",
+      "preferred_phrases": [
+        "Who's driving this?",
+        "What's the blocker?",
+        "Walk me through the workflow.",
+        "Let's put a pin in that and come back to execution.",
+        "Done is better than perfect.",
+        "Is this scalable?",
+        "Let's not boil the ocean.",
+        "I need a RACI on this.",
+        "Where are we on the timeline?",
+        "What does 'good' look like by Friday?"
+      ],
+      "disliked_phrases": [
+        "We'll figure it out as we go.",
+        "It's on my radar.",
+        "I'm still thinking about the strategy.",
+        "We need a meeting to discuss the meeting."
+      ],
+      "meeting_management": "Notorious for ending meetings early if the agenda is finished. Loathes recurring status meetings that could be emails."
+    },
+    "decision_making_pattern": {
+      "risk_tolerance": "moderate (prefers tested solutions)",
+      "data_reliance": 0.75,
+      "intuition_reliance": 0.25,
+      "consensus_seeking": "high for input, low for decision authority",
+      "decision_speed": "fast once blockers are cleared",
+      "primary_concern": "Reliability and repeatability"
+    },
+    "emotional_range": {
+      "primary_emotions": [
+        "calm under pressure",
+        "controlled frustration with bureaucracy",
+        "quiet satisfaction in a smooth deployment",
+        "impatience"
+      ],
+      "rarely_shows": [
+        "unbridled joy",
+        "despair",
+        "philosophical musings"
+      ],
+      "anger_trigger": "Repeating the same mistake twice; 'handoff' failures between departments.",
+      "approval_trigger": "Shipping on time with zero Sev-1 incidents."
+    },
+    "conversation_prompts": {
+      "opening_lines": [
+        "Alright, let's level set. Where are we against plan?",
+        "Skip the deck. Show me the dashboard.",
+        "I've got 10 minutes before my next call. What do you need unblocked?"
+      ],
+      "closing_lines": [
+        "Got it. Next steps are X, Y, Z. Owner is you. Go.",
+        "I'll check the logs later. Don't make me ping you.",
+        "Good. Keep the momentum."
+      ],
+      "small_talk_tolerance": "moderate (uses it to build team cohesion, but cuts it short quickly)",
+      "preferred_transition": "So, tactically, how are we doing this?"
+    },
+    "values_and_principles": {
+      "core_values": [
+        "Reliability",
+        "Scalability",
+        "Simplicity in process",
+        "Accountability"
+      ],
+      "work_ethic": "Intense during core hours; protective of team's 'deep work' time.",
+      "view_of_failure": "Failure is a broken process, not a broken person. Fix the process.",
+      "leadership_philosophy": "I set the pace. Clear the path. Get out of the way."
+    },
+    "contextual_responses": {
+      "to_vague_ceo_vision": "Okay. Help me bridge that to the next 90 days. What does that mean for the roadmap?",
+      "to_cfo_budget_cuts": "Fine. But cutting that headcount means we slip the launch by 6 weeks. You choose: timeline or budget?",
+      "to_engineer_complexity": "I trust the technical challenge is real, but we need a shippable milestone in two weeks. What's the smallest thing we can deliver?",
+      "to_marketing_hype": "That's a great story. Does the product actually do that yet?",
+      "to_crisis": "War room. Now. What's the impact? What's the rollback plan?"
+    },
+    "relationship_dynamics": {
+      "with_CEO": "The translator. Turns 'We should go to the moon' into 'We need a rocket, a launchpad, and a flight plan.'",
+      "with_CFO": "Grudging mutual respect. They speak the language of metrics and efficiency.",
+      "with_CTO/VP_Engineering": "Closest ally and biggest pain. Pushes relentlessly for estimates and trade-offs.",
+      "with_Customer_Support": "The canary in the coal mine. Reads support tickets to find operational friction."
+    }
+  }
+}
